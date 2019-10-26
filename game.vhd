@@ -200,5 +200,5 @@ end case;
 end if;
 end if;
 end process;
-end architecture operation;
+end architecture oper;
 
