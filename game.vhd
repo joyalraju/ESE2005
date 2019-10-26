@@ -5,7 +5,7 @@ PORT(clock, r:in bit;
      n,s,e,w,v: in bit;
 sw,win,die,s0,s1,s2,s3,s4,s5,s6:out bit);
 end entity game;
-architecture operation of game is
+architecture oper of game is
 type state_type is (Ccacophony,TTunnel,RRiver,SStash,DDen,GGraveyard,VVault,gameout);
 signal State : State_Type;
 begin
